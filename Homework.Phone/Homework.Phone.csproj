@@ -6,8 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary.Helpers\ClassLibrary.Helpers.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="ClassLibrary.Helpers">
-      <HintPath>..\..\..\ClassLibrary.Helpers.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\ClassLibrary.Helpers.dll</HintPath>
     </Reference>
   </ItemGroup>
 
